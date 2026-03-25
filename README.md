@@ -1,47 +1,55 @@
 # Framewise Method
 
-A lightweight public method repo for diagnosing YouTube packaging before publish.
+Public method notes for diagnosing YouTube packaging before publish.
 
-Main product:
+Live product:
 
 `https://framewise.art`
 
-## What Framewise is
+## Why this exists
 
-Framewise is not a generic title generator.
+Most creator tools jump straight to generating more titles.
 
-It is a pre-publish packaging read designed to answer:
+Framewise starts one step earlier:
 
 - What feels weakest in this package?
 - Why was it flagged?
 - What should be fixed first?
 
-The working idea behind the product is simple:
+The core idea is simple:
 
 `A lot of low CTR problems are packaging problems, not content problems.`
 
-## What this public repo contains
+## What this repo is
 
-This repository intentionally exposes the method layer, not the full SaaS product.
+This is the public method layer behind Framewise.
 
-Included here:
+It is meant to be useful if you want:
 
-- public framing
+- a clearer language for weak packaging
+- a lightweight rubric for evaluating title + thumbnail decisions
+- examples of bad vs better packaging
+- a public-facing schema for explainable output
+
+## What is public here
+
 - packaging dimensions
-- example diagnosis notes
 - bad vs better examples
+- diagnosis notes
 - a lightweight output schema
+- links back to the live evaluator and guide pages
 
-Not included here:
+## What is intentionally not public here
 
 - production app source
 - private environment configuration
-- internal prompts
+- internal prompts and orchestration
 - commercial implementation details
+- full product logic and scoring internals
 
 ## The five packaging checks
 
-Framewise currently frames packaging evaluation around five dimensions:
+Framewise currently evaluates packages across five dimensions:
 
 1. Clarity
 2. Specificity
@@ -49,14 +57,14 @@ Framewise currently frames packaging evaluation around five dimensions:
 4. Audience Fit
 5. Packaging Synergy
 
-These are meant to catch issues like:
+These checks are designed to catch issues like:
 
 - the title is too vague
 - the package does not signal who it is for clearly enough
 - the click reason is not obvious fast enough
 - the thumbnail and title repeat instead of helping each other
 
-## Example
+## Quick example
 
 Same topic. Two very different packages.
 
@@ -68,11 +76,30 @@ Better package:
 
 `Why Most Faceless YouTube Channels Stay Stuck`
 
-The second one is stronger because it:
+Why the second one is stronger:
 
-- names the audience
-- names the problem
-- gives a clearer reason to click
+- it names the audience
+- it names the problem
+- it gives a clearer reason to click
+
+Main lesson:
+
+Stronger packaging is usually not about sounding fancier.
+
+It is about helping the right viewer understand, quickly:
+
+- this is for me
+- this is my problem
+- this is why I should click
+
+## Start here
+
+- Read the dimension rubric: [rubric/packaging-dimensions.md](rubric/packaging-dimensions.md)
+- See a bad vs better breakdown: [examples/bad-vs-better.md](examples/bad-vs-better.md)
+- Read an audience fit example: [examples/audience-fit.md](examples/audience-fit.md)
+- Read a low CTR diagnosis example: [examples/low-ctr-diagnosis.md](examples/low-ctr-diagnosis.md)
+- See the public output shape: [schema/framewise-output-schema-lite.md](schema/framewise-output-schema-lite.md)
+- Open the live product and guide links: [links/product-and-guides.md](links/product-and-guides.md)
 
 ## Repo structure
 

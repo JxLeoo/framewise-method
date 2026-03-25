@@ -109,6 +109,37 @@ Start with these files:
 - [links/product-and-guides.md](links/product-and-guides.md)  
   Jump back into the live product and focused guide pages.
 
+## How to use this rubric
+
+If you want to apply the method quickly, use this order:
+
+1. Read the draft title and thumbnail once without overthinking.
+2. Ask which of the five checks feels weakest first:
+   - clarity
+   - specificity
+   - click motivation
+   - audience fit
+   - packaging synergy
+3. Write one short sentence for the weakness:
+   - "The title is too broad."
+   - "The click reason is still foggy."
+   - "The audience signal is too generic."
+4. Decide the first fix before rewriting everything:
+   - make the topic more concrete
+   - sharpen the reason to click
+   - narrow the intended viewer
+   - make title and thumbnail do different jobs
+5. Only then generate alternatives.
+
+In practice, the method usually works best when you do not ask,
+"Can I make this sound better?"
+
+Ask:
+
+- What is still unclear?
+- What is still too broad?
+- Why should the right viewer click now?
+
 ## Quick example
 
 Same topic. Two very different packages.

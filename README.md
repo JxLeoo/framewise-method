@@ -2,6 +2,11 @@
 
 Public method notes for diagnosing YouTube packaging before publish.
 
+![Framewise Method social preview](assets/github-social-preview.png)
+
+[![Website](https://img.shields.io/badge/website-framewise.art-c57324?style=flat-square)](https://framewise.art)
+[![License: MIT](https://img.shields.io/badge/license-MIT-2f231f?style=flat-square)](LICENSE)
+
 Live product:
 
 `https://framewise.art`
